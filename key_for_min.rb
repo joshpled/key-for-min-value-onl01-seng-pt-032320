@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   price = 0
-  name_hash.each_value do |key|
+  name_hash.each do |key|
     i = 0
     if key[i] < key[i+1]
       price = i
