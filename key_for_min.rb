@@ -1,7 +1,7 @@
 def key_for_min_value(name_hash)
-if hash == 0
-  nil
-end
+  if name_hash = 0
+    nil
+  end
   smallest_value = 1000000000
   smallest_key = 0
   name_hash.each do |key, value|
