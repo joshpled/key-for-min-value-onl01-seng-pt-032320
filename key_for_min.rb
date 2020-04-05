@@ -4,8 +4,6 @@ def key_for_min_value(name_hash)
   name_hash.each do |key, value|
     if value < smallest_value
       smallest_value = value
-    else
-      key += 1
     end
   end
   smallest_value
