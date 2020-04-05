@@ -1,5 +1,5 @@
 def key_for_min_value(name_hash)
-if hash == 0 
+if hash == 0
   nil
   smallest_value = 1000000000
   smallest_key = 0
